@@ -1,4 +1,6 @@
 *.o
-*.back
+*.out
+*.bak
+*.so
 *.tar
 *.tar.bz2
