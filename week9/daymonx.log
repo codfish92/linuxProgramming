@@ -1,0 +1,26 @@
+daymonx[10179] starts
+daymonx[10179] stdfiles_gibberish
+daymonx[10179] getchar: received keystroke x38
+daymonx[10179] poll returned 1 fd ready
+daymonx[10179] signal Terminated received
+daymonx[10179] shutdown
+daymonx[10182] starts
+daymonx[10182] stdfiles_gibberish
+daymonx[10182] getchar: received keystroke x38
+daymonx[10182] poll returned 1 fd ready
+daymonx[10182] signal User defined signal 1 received
+daymonx[10182] poll returned 1 fd ready
+daymonx[10182] signal Hangup received
+daymonx[10182] poll returned 1 fd ready
+daymonx[10182] signal Interrupt received
+daymonx[10182] shutdown
+daymonx[10197] starts
+daymonx[10197] stdfiles_gibberish
+daymonx[10197] getchar: received keystroke x36
+daymonx[10198] stdfiles_gibberish
+daymonx[10198] getchar: received keystroke x0a
+daymonx[10198] poll returned 1 fd ready
+daymonx[10198] signal Hangup received
+daymonx[10198] poll returned 1 fd ready
+daymonx[10198] signal Interrupt received
+daymonx[10198] shutdown

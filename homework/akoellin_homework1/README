@@ -1,0 +1,11 @@
+The user interface is a bit...awful. I aplogize.
+While most things function like their supposed to, there are a couple things I should mention
+1. Inorder for everything to redraw after a key_resize, you have to hit enter. Not sure what I'm missing(swear im calling refresh afterwards), but it requires an enter key to be pressed before anything redraws
+2. When creating a reservation, for somereason there is a bad symbol leftover for the first creation. it doesn't crash the program, but it will make it think the input is bad. just try creating twice and it should work
+
+While not really necessary, I included all the attachable debugger code so it can make can be ran after untaring. all of that is your code, but this should save the recopying of it.
+
+I have confirmed this works on alamode(i developed the entire thing on it).
+
+Also I aplogize for the extremely bloated main and just crr.c file in general. Good programming practice kinda falls away when your dealing with segfaults. 
+

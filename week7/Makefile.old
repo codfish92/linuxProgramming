@@ -1,0 +1,24 @@
+APPS=charcell-resize
+
+LIBS= -lcurses
+
+CFLAGS+= -g -D_GNU_SOURCE -std=c99
+
+all:  ${APPS} 
+
+${APPS}: % : %.c
+
+
+signal_example: signal_example.o signal_example_utils.o
+
+clean: 
+	${RM} ${APPS}  *.o *~ *.bak
+
+
+charcell-resize: charcell-resize.o
+	${CC} ${LDFLAGS} -o charcell-resize charcell-resize.o -lncurses
+
+charcell: charcell.o
+	${CC} ${LDFLAGS} -o charcell charcell.o -lcurses
+
+.PHONY: all clean
